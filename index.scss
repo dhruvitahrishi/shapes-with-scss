@@ -1,0 +1,49 @@
+@mixin shape($w :10px,$h :10px,$c: black) 
+{
+    width: $w;
+    height: $h;
+    background-color: $c;
+    
+}
+.s1{
+    align-content: center;
+}
+.square{
+    @include shape(200px,200px,#FF69B4 );
+}
+
+.circle{
+    @include shape(200px,200px ,#FF1493 );
+    border-radius: 50%;
+}
+
+.oval{
+    @include shape(400px,200px ,#FF4500 );
+    border-radius: 50%;
+}
+
+.rectangle{
+    @include shape(400px,200px ,#1E90FF);
+}
+
+.triangle_up{
+    width: 0px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid gold;
+}
+
+.triangle_down{
+    width: 0px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 200px solid crimson;
+}
+
+.parallelogram{
+    @include shape(300px,100px ,maroon );
+    transform: skew(20deg);
+    margin-left: 20px;
+}

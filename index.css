@@ -1,0 +1,55 @@
+.s1 {
+  align-content: center;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: #FF69B4;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: #FF1493;
+  border-radius: 50%;
+}
+
+.oval {
+  width: 400px;
+  height: 200px;
+  background-color: #FF4500;
+  border-radius: 50%;
+}
+
+.rectangle {
+  width: 400px;
+  height: 200px;
+  background-color: #1E90FF;
+}
+
+.triangle_up {
+  width: 0px;
+  height: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid gold;
+}
+
+.triangle_down {
+  width: 0px;
+  height: 0px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 200px solid crimson;
+}
+
+.parallelogram {
+  width: 300px;
+  height: 100px;
+  background-color: maroon;
+  transform: skew(20deg);
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=index.css.map */
